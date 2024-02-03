@@ -1,0 +1,49 @@
+
+button.login{
+    box-sizing: content-box;
+    margin: 100px 100px 100px 140px;
+    padding: 0px 0px 0px 0px;
+    font-family: "Poppins", sans-serif;
+    font-size: larger;
+    font-weight: 650;
+    font-style: normal;      
+    height: 40PX;
+    width: 200PX;
+    color: rgb(255, 255, 255);
+    background: rgb(11,30,26);
+    background: linear-gradient(0deg, rgba(11,30,26,1) 0%, rgba(21,98,34,1) 100%);
+    border: 3px solid ;
+    border-radius: 15PX 15PX 15PX 15PX;
+    transition: 0.5s;
+    transition: 2s;
+}
+
+button.login:hover {
+    height: 45px;
+    width: 210px;
+    margin: 100px 100px 100px 140px;
+    padding: 0px 0px 0px 0px;
+    border-radius: 20PX 20PX 20PX 20PX;
+    background: rgb(11,30,26);
+    background: linear-gradient(0deg, rgba(11,30,26,1) 42%, rgba(32,165,54,1) 100%);
+
+}
+
+button.login:active{
+    box-sizing: content-box;
+    margin: 100px 100px 100px 140px;
+    padding: 0px 0px 0px 0px;
+    font-family: "Poppins", sans-serif;
+    font-size: larger;
+    font-weight: 650;
+    font-style: normal;      
+    height: 40PX;
+    width: 200PX;
+    color: rgb(255, 255, 255);
+    background: rgb(11,30,26);
+    background: linear-gradient(0deg, rgba(11,30,26,1) 0%, rgba(21,98,34,1) 100%);
+    border: 3px solid ;
+    border-radius: 15PX 15PX 15PX 15PX;
+    transition: 0.5s;
+    transition: 2s;
+}

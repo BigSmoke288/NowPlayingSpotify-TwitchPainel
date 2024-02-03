@@ -1,0 +1,106 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, Arial, Sans-Serif;
+    max-width: 160px;
+    max-height: 300px; ;
+    align-content: center;
+    align-items: center;
+    align-self: center;
+}
+
+div.painel {
+    width: 160px;
+    height: 320px;
+    width: 100%;
+    background: rgb(11,30,26);
+    background: linear-gradient(0deg, rgba(11,30,26,1) 0%, rgba(4,32,33,1) 35%, rgba(1,11,2,1) 100%);
+}
+/* SPOTIFY LOGO */
+div.spotify-logo {
+    padding-top: 5%;
+    color: rgb(30, 215, 96);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+img.logo{
+    width: 10%;
+    height: 10%;
+}
+
+a.spotify {
+    margin-left: 1%;
+    font-weight: 700;
+    font: sans-serif;
+}
+
+div.copyright {
+    font-size: 50%;
+    padding-bottom: 5%;
+
+}
+/* SPOTIFY LOGO */
+
+/* NOW PLAYING */
+div.now-playing {
+    color: white;
+    font: sans-serif;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    font-size: x-small;
+    vertical-align: center;
+}
+/* NOW PLAYING */
+
+/* TRACK IMAGE */
+div.track-image img {
+    transition: transform 1s;
+    border: solid transparent;
+    border-radius: 40px;
+    margin-left: 3%;
+    padding: 10%;
+    filter: drop-shadow(rgb(0, 0, 0) 0px 0px 3px);
+    width: 90%;
+    display: flex;
+    justify-content: center;
+}
+
+/* TRACK IMAGE */
+
+/* TRACK AND ARTIST */
+div.track-name {
+    color: white;
+    font: sans-serif;
+    position: absolute;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 2px;
+    font-family: Helvetica, Arial, Sans-Serif;
+    font-size: medium;
+    font-weight: 600;
+    text-shadow:rgb(0, 0, 0) 0.1em 0.1em 4px;
+}
+
+div.artist-name {
+    color: white;
+    width: fit-content;
+    height: fit-content;
+    margin-top: 29%;
+    font-family: Helvetica, Arial, Sans-Serif;
+    text-shadow:rgb(0, 0, 0) 0.1em 0.1em 4px;
+    font-weight: 700;
+    font-size: large;
+    padding-left: 2px;
+
+
+}
+
+div.artist-name :hover {
+    text-decoration: underline;
+}
+/* TRACK AND ARTIST */
