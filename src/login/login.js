@@ -20,7 +20,7 @@ const generateRandomString = (length) => {
   const hashed = await sha256(codeVerifier)
   const codeChallenge = base64encode(hashed);
 
-  const clientId = '78f2eec0632047ad93ea52802363d830';
+  const clientId = '';
   const redirectUri = 'http://localhost:5500';
   
   const scope = 'user-read-private user-read-email';
